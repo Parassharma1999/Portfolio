@@ -1,4 +1,5 @@
 import React from 'react'
+import "./About.css"
 import ME from "../../Assets/me-about.jpg"
 import {FaAward} from "react-icons/fa"
 import {FiUsers} from "react-icons/fi"
@@ -8,10 +9,10 @@ const About = () => {
     <section id='about'>
       <h5>Get To Know</h5>
       <h2>About me</h2>
-      <div className="conatiner about__conatainer">
+      <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="AboutImage" />
+            <img src={ME} alt="About Image" />
           </div>
         </div>
         
