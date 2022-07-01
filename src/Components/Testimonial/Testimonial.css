@@ -1,4 +1,4 @@
-.testinomials_container{
+.container.testinomial__container{
  width: 40%;
 
 }
@@ -15,9 +15,12 @@
 .testinomial{
 background: var(--color-bg-variant);
   text-align:center;
-  padding: 7rem;
+  padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+  margin: 0 auto;
+  width: 60%; 
+
 }
 
 
@@ -32,17 +35,26 @@ background: var(--color-bg-variant);
 
 
 @media screen and (max-width:1024px) {
-    .testinomial__container{
-     width: var(--container--width-sm);
-    }
+ .container.testinomial__container  {
+  width: 60%;
+ }
 
+ .testinomial{
+  width: 60%; 
+ }
 
-    .client_review{
-     width: var(--container-width-sm);   
-    }
-  }
-
-
+}
 
 @media screen and (max-width:600px) {
+  .container.testinomial__container{
+    width: var(--container--width-sm);
+   }
+
+   .testinomial{
+   width: 80%; 
+  }
+   .client__review{
+    width: var(--container-width-sm);   
+   }
+ 
 }
