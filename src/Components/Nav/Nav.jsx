@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineHome, AiOutlineUser, AiOutlineMessage } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
+import { GiElectric } from "react-icons/gi";
 import { useState } from "react";
 
 import "./Nav.css";
@@ -28,14 +29,14 @@ const Nav = () => {
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBook />
+      <GiElectric />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#Education"
+        onClick={() => setActiveNav("#Education")}
+        className={activeNav === "#Education" ? "active" : ""}
       >
-        <RiServiceLine />
+        <BiBook />
       </a>
       <a
         href="#contact"

@@ -6,20 +6,18 @@ import Experience from "./Components/Experience/Experience"
 import Portfolio from "./Components/Portfolio/Portfolio"
 import Testinomial from "./Components/Testimonial/Testimonial"
 import Contact from "./Components/Contact/Contact"
-import Footer from "./Components/Footer/Footer"
-import Services from "./Components/Services/Services"
+import Education from './Components/Education/Education'
 const App = () => {
   return (
     <>
       <Header/>
       <Nav/>
       <About/>
-      <Experience/>
-      <Services/>
       <Portfolio/>
-      <Testinomial/>
+      <Experience/>
+      <Education/>
       <Contact/>
-      {/* <Footer/> */}
+       
     </>
   )
 }

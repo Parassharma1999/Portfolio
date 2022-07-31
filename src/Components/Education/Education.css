@@ -1,0 +1,9 @@
+.Education-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-light);
+}
+
+.Education-heading > h2 {
+    color: var(--color-primary);
+}

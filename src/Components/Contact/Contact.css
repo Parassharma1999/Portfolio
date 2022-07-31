@@ -68,5 +68,12 @@ input, textarea{
     }
 }
 
+@media screen and (max-width:300px) {
+    .container.contact__container{
+        width: var(--container-width-sm);
+        margin: auto 0;
+    }
+}
+
 
 
